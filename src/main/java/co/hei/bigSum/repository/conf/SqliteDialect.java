@@ -14,6 +14,7 @@ import org.hibernate.type.StringType;
  * Sqlite dialect </a>
  */
 @PojaGenerated
+@SuppressWarnings("deprecation")
 public class SqliteDialect extends Dialect {
   public SqliteDialect() {
     registerColumnType(Types.BIT, "integer");
